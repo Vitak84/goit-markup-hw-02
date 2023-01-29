@@ -41,6 +41,7 @@ body {
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.02em;
+        text-transform: uppercase;
 }
 
 .header-logo-website {
@@ -107,7 +108,13 @@ body {
         letter-spacing: 0.04em;
         color: #FFFFFF;
         background-color: #4D5AE5;
+        border: none;
         cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+        background-color: var(--active-color);
 }
 
 /* ---------FUTURES--------- */
